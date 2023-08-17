@@ -1,16 +1,15 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:my_test_project_firebase_cli/auth/signin.dart';
-
-class SignUpView extends StatefulWidget {
-  const SignUpView({Key? key}) : super(key: key);
+class TestSignUp extends StatefulWidget {
+  const TestSignUp({super.key});
 
   @override
-  State<SignUpView> createState() => _SignUpViewState();
+  State<TestSignUp> createState() => _TestSignUpState();
 }
 
-class _SignUpViewState extends State<SignUpView> {
-  TextEditingController nameController = TextEditingController();
+class _TestSignUpState extends State<TestSignUp> {
+   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   final FirebaseAuth _auth = FirebaseAuth.instance;
   signup(String email, password) {
@@ -114,4 +113,7 @@ class _SignUpViewState extends State<SignUpView> {
           )),
     );
   }
+
+
+
 }

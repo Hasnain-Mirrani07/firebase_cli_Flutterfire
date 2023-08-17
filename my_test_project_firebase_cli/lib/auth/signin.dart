@@ -97,7 +97,7 @@ class _SignInViewState extends State<SignInView> {
                       onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const SignUpView()),
+                                builder: (context) => const TestSignUp()),
                           ),
                       child: const Text('Does not have account?')),
                   TextButton(
@@ -109,7 +109,7 @@ class _SignInViewState extends State<SignInView> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const SignUpView()),
+                            builder: (context) => const TestSignUp()),
                       );
                       //signup screen
                     },
