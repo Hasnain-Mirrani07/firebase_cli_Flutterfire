@@ -7,11 +7,11 @@ class DasboardView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("appbar"),
+        title: const Text("apppbar"),
       ),
       body: Center(
         child: Container(
-          child: const Text("DAshboard"),
+          child: const Text("DAashboard"),
         ),
       ),
     );
