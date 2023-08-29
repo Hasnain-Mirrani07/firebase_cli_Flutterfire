@@ -11,8 +11,8 @@ class DasboardView extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: const Text("DAashbfffghfghoard"),
-          child: const Text("DAashbihkhffoard"),
+          child: const Text("DAashbffghoard"),
+          child: const Text("DAaskhffoard"),
         ),
       ),
     );
